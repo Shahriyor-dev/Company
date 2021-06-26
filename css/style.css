@@ -534,3 +534,49 @@ a {
   top: 55px;
   left: -65px;
 }
+.strategy {
+  background: #f07566;
+  max-height: 384px;
+}
+.strategy-content {
+  display: flex;
+  justify-content: space-between;
+}
+.strategy-text {
+  padding: 80px 0;
+  max-width: 570px;
+}
+.strategy-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: -1px;
+  color: #ffffff;
+  margin-top: 0;
+  margin-bottom: 26px;
+}
+.strategy-description {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 32px;
+  color: #ffffff;
+}
+.strategy-img {
+  position: relative;
+  width: 371px;
+  height: 508px;
+}
+.strategy-main-img {
+  position: absolute;
+  top: -60px;
+  left: 0;
+  z-index: 2;
+}
+.strategy-play-img {
+  position: absolute;
+  z-index: 4;
+  top: 25%;
+  right: 95px;
+}
